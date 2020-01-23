@@ -73,7 +73,8 @@
           "table": "Table",
           "visualaid": "View invisible elements",
           "code": "View Source",
-          "fullscreen": "Full Screen"
+          "fullscreen": "Full Screen",
+          "ltr rtl": "Directionality"
         }
       }
     },
