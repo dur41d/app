@@ -64,6 +64,7 @@ import 'tinymce/plugins/insertdatetime/plugin';
 import 'tinymce/plugins/autoresize/plugin';
 import 'tinymce/plugins/paste/plugin';
 import 'tinymce/plugins/preview/plugin';
+import 'tinymce/plugins/fullscreen/plugin';
 
 import Editor from '@tinymce/tinymce-vue';
 
@@ -109,7 +110,7 @@ export default {
 				content_css: false,
 				content_style: this.contentStyle,
 				plugins:
-					'media table hr lists image link pagebreak code insertdatetime autoresize paste preview',
+					'media table hr lists image link pagebreak code insertdatetime autoresize paste preview fullscreen',
 				branding: false,
 				max_height: 1000,
 				elementpath: false,
