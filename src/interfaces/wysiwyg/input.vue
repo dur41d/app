@@ -99,6 +99,7 @@ export default {
 		},
 		initOptions() {
 			const styleFormats = this.getStyleFormats();
+			const pluginOptions = this.options.plugin_options;
 			let toolbarString = this.options.toolbar.join(' ');
 
 			if (styleFormats) {
@@ -122,7 +123,8 @@ export default {
 				extended_valid_elements: 'audio[loop],source',
 				toolbar: toolbarString,
 				style_formats: styleFormats,
-				file_picker_callback: this.selectFile
+				file_picker_callback: this.selectFile,
+				...pluginOptions
 			};
 		},
 		contentStyle() {

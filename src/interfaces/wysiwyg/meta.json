@@ -92,6 +92,15 @@
           "attributes": { "title": "My Custom Wrapper" }
         }]
       }
-    }
+    },
+    "plugin_options": {
+      "name": "$t:plugin_options",
+      "comment": "$t:plugin_options_comment",
+      "interface": "json",
+      "default": null,
+      "options": {
+        "template": { }
+      }
+    }    
   }
 }
