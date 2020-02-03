@@ -93,14 +93,12 @@
         }]
       }
     },
-    "plugin_options": {
-      "name": "$t:plugin_options",
-      "comment": "$t:plugin_options_comment",
+    "tinymce_options": {
+      "name": "$t:tinymce_options",
+      "comment": "$t:tinymce_options_comment",
       "interface": "json",
-      "default": null,
-      "options": {
-        "template": { }
-      }
-    }    
+	  "default": null,
+	  "advanced": true
+    }
   }
 }

@@ -99,7 +99,6 @@ export default {
 		},
 		initOptions() {
 			const styleFormats = this.getStyleFormats();
-			const pluginOptions = this.options.plugin_options;
 			let toolbarString = this.options.toolbar.join(' ');
 
 			if (styleFormats) {
@@ -124,7 +123,7 @@ export default {
 				toolbar: toolbarString,
 				style_formats: styleFormats,
 				file_picker_callback: this.selectFile,
-				...pluginOptions
+				...this.options.tinymce_options
 			};
 		},
 		contentStyle() {
